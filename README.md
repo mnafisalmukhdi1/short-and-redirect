@@ -6,7 +6,7 @@ This just sends the user directly to the URL you provide.
 
 ```markdown
 ---
-layout: default
+layout: forward
 target: https://example.com
 ---
 ```
@@ -17,7 +17,7 @@ You have a few more options to set to customise your redirect:
 
 ```markdown
 ---
-layout: default
+layout: forward
 target: https://example.com
 targetname: Example.com
 targettitle: Taking you to example.com
