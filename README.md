@@ -2,11 +2,11 @@
 Short and Redirect link for mnafisalmukhdi1, based on codepo8/github-redirection-demo
 ## Guidance from codepo8/github-redirection-demo
 
-This just sends the user directly to the URL you provide. Try [plain-redirect.md](plain-redirect)
+This just sends the user directly to the URL you provide.
 
 ```markdown
 ---
-layout: forward
+layout: default
 target: https://example.com
 ---
 ```
@@ -17,7 +17,7 @@ You have a few more options to set to customise your redirect:
 
 ```markdown
 ---
-layout: forward
+layout: default
 target: https://example.com
 targetname: Example.com
 targettitle: Taking you to example.com
